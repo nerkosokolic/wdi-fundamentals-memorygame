@@ -4,6 +4,7 @@ h1 {
     color: #0d2c40;
     letter-spacing: 1px;
     font-size: 45px;
+    margin: 0;
     }
 
 a {
@@ -31,4 +32,71 @@ p {
 
 body {
     text-align: center;
+    margin: 0;
+
+    }
+
+header {
+    background-color: #f15b31;
+    color: #ffffff;
+    padding: 30px 20px;
+}
+
+nav {
+    background-color: #00a6b3;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+nav a {
+    margin: 0 20px;
+    color: #ffffff;
+    border-bottom: 2px solid transparent;
+}
+
+main {
+    width: 850px;
+    margin: 35px auto;
+}
+
+img {
+    margin: 40px 8px 0 8px;
+}
+
+footer {
+    text-transform: uppercase;
+    padding: 0 20px;
+    background-color: #0D2C40;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+}
+
+.copyright {
+    float: left;
+    font-family: "Raleway", serif;
+}
+
+.message {
+    float: right;
+    font-family: "Raleway", serif;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+    }
+
+.name {
+    color: #F15B31;
+    font-weight: 700;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
     }
