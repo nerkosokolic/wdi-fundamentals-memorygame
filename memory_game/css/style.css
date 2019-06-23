@@ -100,3 +100,36 @@ footer {
 a:hover {
     border-bottom: 2px solid white;
     }
+
+#reset {
+    background-color: white;
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#reset:hover {
+    background-color: skyblue;
+}
+
+#spanTag {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto;
+
+}
+
+#game-board {
+    margin: 0;
+}
+
+
+
+img {
+    margin: 5px;
+
+}
+
